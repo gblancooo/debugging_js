@@ -3,4 +3,5 @@ function calcularSuma() {
     const num2 = parseInt(document.getElementById('num2').value);
     const suma = num1 + num2; 
     document.getElementById('resultado').innerText = `La suma es: ${suma}`;
+    
 }
